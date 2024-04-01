@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_bacemhlabba_content_1711970609903-push-trigger-input-set
+  identifier: Build_bacemhlabba_content_1711970609903pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_bacemhlabba_content_1711970609903
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
